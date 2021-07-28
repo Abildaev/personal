@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "./static/css/main.27a3942e.chunk.css",
-    "main.js": "./static/js/main.411d4171.chunk.js",
-    "main.js.map": "./static/js/main.411d4171.chunk.js.map",
-    "runtime-main.js": "./static/js/runtime-main.d1a2a599.js",
-    "runtime-main.js.map": "./static/js/runtime-main.d1a2a599.js.map",
-    "static/css/2.fc762936.chunk.css": "./static/css/2.fc762936.chunk.css",
-    "static/js/2.6f2d7e66.chunk.js": "./static/js/2.6f2d7e66.chunk.js",
-    "static/js/2.6f2d7e66.chunk.js.map": "./static/js/2.6f2d7e66.chunk.js.map",
-    "index.html": "./index.html",
-    "static/css/2.fc762936.chunk.css.map": "./static/css/2.fc762936.chunk.css.map",
-    "static/css/main.27a3942e.chunk.css.map": "./static/css/main.27a3942e.chunk.css.map",
-    "static/js/2.6f2d7e66.chunk.js.LICENSE.txt": "./static/js/2.6f2d7e66.chunk.js.LICENSE.txt",
-    "static/media/App.scss": "./static/media/fontello.d9b7009c.woff",
-    "static/media/avatar.d5bab00e.jpg": "./static/media/avatar.d5bab00e.jpg",
-    "static/media/foto.36bb2f47.jpg": "./static/media/foto.36bb2f47.jpg",
-    "static/media/resume.a8ce5a32.pdf": "./static/media/resume.a8ce5a32.pdf"
+    "main.css": "/static/css/main.5ab68e68.chunk.css",
+    "main.js": "/static/js/main.8225f582.chunk.js",
+    "main.js.map": "/static/js/main.8225f582.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.edeb8dac.js",
+    "runtime-main.js.map": "/static/js/runtime-main.edeb8dac.js.map",
+    "static/css/2.fc762936.chunk.css": "/static/css/2.fc762936.chunk.css",
+    "static/js/2.6f2d7e66.chunk.js": "/static/js/2.6f2d7e66.chunk.js",
+    "static/js/2.6f2d7e66.chunk.js.map": "/static/js/2.6f2d7e66.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.fc762936.chunk.css.map": "/static/css/2.fc762936.chunk.css.map",
+    "static/css/main.5ab68e68.chunk.css.map": "/static/css/main.5ab68e68.chunk.css.map",
+    "static/js/2.6f2d7e66.chunk.js.LICENSE.txt": "/static/js/2.6f2d7e66.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/static/media/fontello.d9b7009c.woff",
+    "static/media/avatar.d5bab00e.jpg": "/static/media/avatar.d5bab00e.jpg",
+    "static/media/foto.36bb2f47.jpg": "/static/media/foto.36bb2f47.jpg",
+    "static/media/resume.a8ce5a32.pdf": "/static/media/resume.a8ce5a32.pdf"
   },
   "entrypoints": [
-    "static/js/runtime-main.d1a2a599.js",
+    "static/js/runtime-main.edeb8dac.js",
     "static/css/2.fc762936.chunk.css",
     "static/js/2.6f2d7e66.chunk.js",
-    "static/css/main.27a3942e.chunk.css",
-    "static/js/main.411d4171.chunk.js"
+    "static/css/main.5ab68e68.chunk.css",
+    "static/js/main.8225f582.chunk.js"
   ]
 }
