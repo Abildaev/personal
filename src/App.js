@@ -36,7 +36,7 @@ function App(props) {
           <div className="App">
           <Menu menu= {props.data.menu}/>
           <Switch>
-            <Route exact path='/' render ={ () => <HomePage homePage ={props.data.homePage}/>}/>
+            <Route exact path='' render ={ () => <HomePage homePage ={props.data.homePage}/>}/>
             <Route  path='/about' render ={ () => <AboutPage aboutPage={props.data.aboutPage}/>}/> 
             <Route  path='/resume' render ={ () => <ResumePage resumePage={props.data.resumePage}/>}/> 
             <Route  path='/portfolio' render ={ () => <PorfolioPage portfolioPage={props.data.portfolioPage}/>}/>
