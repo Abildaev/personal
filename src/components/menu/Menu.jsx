@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 
 const Menu = (props) => {
   const [menu, setMenu] = useState(true);
@@ -21,7 +21,7 @@ const Menu = (props) => {
   });
 
   const socialNet = props.menu.socialNet.map((element, key) => (
-    menu && <a href={element.link} className="menu__socnet" target="_blank" key={key}><i className={element.iconName}></i></a>
+    menu && <Link to={element.link} className="menu__socnet" target="_blank" key={key}><i className={element.iconName}></i></Link>
   ));
 
   const links = props.menu.navigation.map((element, key) => (

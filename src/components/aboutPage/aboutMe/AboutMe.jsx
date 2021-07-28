@@ -2,6 +2,7 @@ import React from 'react';
 import SectionTitle from '../../sectionTitle/SectionTitle';
 import foto from '../../../assets/images/aboutPage/foto.jpg';
 import resume from '../../../assets/images/aboutPage/resume.pdf';
+import {Link} from "react-router-dom";
 
 
 
@@ -27,9 +28,9 @@ const AboutMe = (props) => {
             <h3>{props.aboutMe.title} <span>{props.aboutMe.name}</span></h3>
             <p>{props.aboutMe.subtitle}</p>
             <ul className="about-page__info">{info}</ul>
-            <a href={resume} className="about-page__link" target="_blank">
+            <Link to={resume} className="about-page__link" target="_blank">
               <span>скачать cv</span>
-              </a>
+              </Link>
           </div>
         </div>
       </div>

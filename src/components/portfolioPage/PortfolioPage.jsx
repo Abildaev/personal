@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import SectionTitle from '../sectionTitle/SectionTitle';
 import { NavLink } from "react-router-dom";
 import { Route, Switch, Link, useRouteMatch, useParams } from "react-router-dom";
@@ -7,8 +7,6 @@ import { Route, Switch, Link, useRouteMatch, useParams } from "react-router-dom"
 
 
 const PorfolioPage = (props) => {
-
-  const [descrip, setDescrip] = useState("");
 
   function Topic() {
     let { name } = useParams();
@@ -22,7 +20,7 @@ const PorfolioPage = (props) => {
             <div className="portfolio-page__img-detail">
               <img src={el.photo} alt="" className="portfolio-page__img" />
             </div>
-            <a className="about-page__link mt-5" href={el.link} target="blank">перейти на сайт</a>
+            <Link className="about-page__link mt-5" to={el.link} target="blank">перейти на сайт</Link>
 
           </div>
         ))}
